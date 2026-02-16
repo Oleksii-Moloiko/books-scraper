@@ -24,6 +24,7 @@ Python, Poetry, Requests, BeautifulSoup4 (lxml), SQLAlchemy, SQLite, Matplotlib
 poetry install
 poetry run python main.py
 poetry run python report.py
+```
 
 ## Visualizations
 ![Books count by rating](rating_counts.png)
