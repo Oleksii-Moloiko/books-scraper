@@ -14,8 +14,17 @@ It also generates simple visualizations from the stored data.
 ## Tech stack
 Python, Poetry, Requests, BeautifulSoup4 (lxml), SQLAlchemy, SQLite, Matplotlib
 
+## Project structure
+- `main.py` — scraper + save to SQLite
+- `model.py` — SQLAlchemy model
+- `report.py` — charts from SQLite data
+
 ## Run
 ```bash
 poetry install
 poetry run python main.py
 poetry run python report.py
+
+## Visualizations
+![Books count by rating](rating_counts.png)
+![Price distribution](price_distribution.png)
