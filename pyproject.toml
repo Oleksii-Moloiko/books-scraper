@@ -1,0 +1,20 @@
+[project]
+name = "books-scraper"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Oleksii-Moloiko",email = "oleksiimoloiko@gmail.com"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "beautifulsoup4 (>=4.14.3,<5.0.0)",
+    "requests (>=2.32.5,<3.0.0)",
+    "sqlalchemy (>=2.0.46,<3.0.0)",
+    "lxml (>=6.0.2,<7.0.0)",
+    "matplotlib (>=3.10.8,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

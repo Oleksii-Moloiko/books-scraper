@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+my_books.db
+.DS_Store
